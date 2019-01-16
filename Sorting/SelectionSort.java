@@ -12,8 +12,9 @@ public class SelectionSort {
                 }
             }
             //swap elements
-            array[smallestIndex] = array[i];
+            int temp = array[i];
             array[i] = smallest;
+            array[smallestIndex] = temp;
         }
     }
 
