@@ -5,7 +5,7 @@ public class QuickSort {
         if (low < high) {
             int pivot = partition(array, low, high);
             quickSort(array, low, pivot - 1);//sort a left sub-array
-            quickSort(array, pivot + 1, high);//sort a right sub-array
+            quickSort(array, pivot, high);//sort a right sub-array
         }
 
     }
@@ -28,7 +28,7 @@ public class QuickSort {
             }
         }
 
-        return pivot;
+        return i;
     }
 
     public static void main(String[] args) {
