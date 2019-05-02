@@ -13,7 +13,7 @@ public class BinarySearch {
 			return -1;
 		}
 
-		int mid = (low + high) / 2;//take an element in the centre of an array
+		int mid = low + (high - low) / 2;//take an element in the centre of an array
 		
 		if (a[mid] == searchElement) {
 			return mid;

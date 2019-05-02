@@ -5,7 +5,7 @@ public class BinarySearch {
         int high = array.length - 1;
 
         while (low <= high) {
-            int mid = (low + high) / 2;//take an element in the centre of an array
+            int mid = low + (high - low) / 2;//take an element in the centre of an array
             if (array[mid] == searchElement) {
                 return mid;
             }
