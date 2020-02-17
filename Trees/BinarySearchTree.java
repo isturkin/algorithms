@@ -18,6 +18,7 @@ public boolean find(int value) {
 			current = current.right;
 		}
 	}
+
 	return false;
 }
 
