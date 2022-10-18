@@ -1,4 +1,4 @@
-public class BinarySearch {
+public class BinarySearchWithRecursion {
 
 	public static int binarySearch(int[] a, int searchElement) {
 		int low = 0;

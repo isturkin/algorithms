@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class FibonacciWithRecursion {
 
     public static long fib(int n) {
         if (n < 2) {
