@@ -5,7 +5,7 @@ import java.util.List;
 // for example for the following set of coins (1, 9, 10) and the target nominal k=18
 // you will get answer 9 [10, 1, 1, 1, 1, 1, 1, 1, 1]
 // but the optimal decision here is 2 [9, 9]
-public class ChangeVariantsMinCoinCount {
+public class ChangeMinCoinsCountGreedyAlgorithm {
 
     private static final List<Integer> coins = Arrays.asList(1, 3, 5, 10);
 

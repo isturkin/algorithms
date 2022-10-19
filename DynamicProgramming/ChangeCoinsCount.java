@@ -7,7 +7,7 @@ import java.util.Map;
 // k >= 10
 // F(k) = F(k - 1) + F(k - 3) + F(k - 5) + F(k - 10)
 // F(0), F(1) = 1
-public class ChangeVariantsCount {
+public class ChangeCoinsCount {
 
     private static final Map<Integer, Integer> nominalToChangeVariantsCount = new HashMap<>();
 
